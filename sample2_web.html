@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+			<!-- BOOTSTRAP FOR STYLING -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+	
+	<link rel="icon" type="image/x-icon" href="https://www.freeiconspng.com/uploads/render-pokemon-png-1.png">
+	
+
+    <title>Personal Introduction</title>
+
+
+
+    <style>
+       body {
+	background-color: #000;
+	color: white;
+	}
+
+	.block {
+		position: relative;
+		margin: 100px auto 90px;
+
+		width: 30%;
+		height: 100%;
+		background: linear-gradient(0deg, #000, #272727);
+	}
+
+	.block:before, .block:after {
+		content: '';
+		position: absolute;
+		left: -2px;
+		top: -2px;
+		background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+			#0000ff, #00ff00,#ffff00, #ff0000);
+		background-size: 200%;
+		width: calc(100% + 4px);
+		height: calc(100% + 4px);
+		z-index: -1;
+		animation: steam 25s linear infinite;
+	}
+
+	@keyframes steam {
+		0% {
+			background-position: 0 0;
+		}
+		50% {
+			background-position: 400% 0;
+		}
+		100% {
+			background-position: 0 0;
+		}
+	}
+
+	.block:after {
+		filter: blur(50px);
+	}
+
+	.img {
+		position: relative; 
+		margin-bottom: 20px; 
+		width: 100%; 
+		height: auto;
+	}
+
+    </style>
+
+</head>
+
+<body>
+<div class="container block">
+
+	
+		
+		<div class ="container" style="margin: auto 0; padding: 10px;">
+
+        <h1 style="margin: 20px auto 20px; text-align: center;font-size: 3vw;">Personal Details</h1>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnjsok6p9oMU0fZyTk54rREH1j_9qnecLlbw&usqp=CAU" alt="Profile Picture" class="rounded-circle"; style=" float:right; margin: 30px auto 30px; " width="30%" height="30%">
+            
+        <p><b>Name:</b> Galvez, Jehu Vincent Ferrer</p>
+        <p><b>ID Number:</b> 2022-230102 </p>
+        <p><b>University Email:</b> galvezjf@students.nu-fairview.edu.ph</p>
+        <p><b>Course:</b> Bachelor of Science in Information Technology with specialization in Mobile and Internet Technology</p>
+        <p><b>Year & Section:</b> 2nd Year - IT224</p>  
+		</div>
+
+        <div class="container">
+
+         <div class="d-flex justify-content-center">
+            <div class="alert alert-light btn btn-outline-dark" >
+                <h2>About Me</h2>
+            </div>  
+         </div>   
+
+        <div class="alert alert-primary">
+             <p>My favorite application is a social media app called <b><u>Facebook</u></b> because it is
+                useful to connect and it is convenient to use for communicating with others.</p>
+        </div>
+
+        <div class="alert alert-info">    
+         <p><b><u>Facebook</u></b> also helps me to keep updated on what is trending and to be informed 
+            about what is currently happening</p>
+        </div>
+
+        <div class="alert alert-success">
+             <p>I always use <b><u>Facebook</u></b> every time I have free time. <b><u>Facebook</u></b> can be also entertaining
+            because of its featured called <b>Facebook Watch and Facebook Reels</b>.</p>
+        </div>
+
+         <div class="alert alert-warning">   
+            <p>But <b><u>Facebook</u></b> has also a down side, many people used it as a platform to spread fake news and false information, trolls, and cyberbullyings. But <b><u>Facebook</u></b> has a feature to report and block this kind of cases and their moderators will take care of it.</p>. <h5 class="text-center">Always be alert and check facts!.</h5>
+         </div>
+
+         <img src="https://media.giphy.com/headers/facebook/FuLFvah0klRm.gif" class="img">
+	
+        </div>
+ 
+	
+</div>
+</body>
+</html>
